@@ -14,6 +14,16 @@ button {
   transition: transform 0.3s ease;
 }
 
+.dark-mode {
+  background-color: #0f0f0f;
+  color: #00ffe7;
+}
+
+nav a {
+  color: #00ffe7;
+  text-shadow: 0 0 5px #00ffe7;
+}
+
 button:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px #00ffe7;
