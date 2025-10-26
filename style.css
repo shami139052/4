@@ -5,6 +5,20 @@ body {
   transition: background 0.4s, color 0.4s;
 }
 
+button {
+  background: #00ffe7;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #00ffe7;
+}
+
 .dark-mode {
   background-color: #121212;
   color: #f0f0f0;
